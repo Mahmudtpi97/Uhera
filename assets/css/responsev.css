@@ -1,0 +1,387 @@
+@media all and (max-width: 1199px) {
+	h1{
+		font-size:29px !important;
+	}
+    /*Header Area*/
+    .header{
+    	max-width:980px;
+    }
+     .nav li a{
+     	font-size:19px;
+     }
+     .slider-details span {
+	    left: 17%;
+   }
+    .owl-prev i {
+      left: 0%;
+    }
+    .owl-next i {
+      right: 0%;
+    }
+    .blog h2{
+        font-size:28px;
+    }
+   .blog p {
+     padding: 0rem; 
+     padding-top:1rem;
+}
+.overly-link a {
+  width:35%;
+  height:32%;
+  bottom: 20%;
+  left: 35%;
+}
+.overly-text h3, .overly-text p{
+  font-size: 15px;
+}
+
+}
+@media all and (min-width: 992px ) {
+    .nav{
+        display:flex !important;
+    }
+}
+
+@media all and (max-width: 991px ) {
+     /*Header Area*/
+     .header{
+     	max-width:760px;
+        margin-top:-2rem;
+     }
+       .menu i{
+    	display: block;
+    }
+  .nav {
+    float: right;
+    background: linear-gradient(#9026a5,#123f0c,#a3228f);
+    display: none;
+    padding: 1rem;
+    width: 55%;
+    margin-top: -5rem;
+}
+    .nav li {
+       padding: .5rem;
+   }
+    .slider-area{
+    	flex-direction:column;
+    }
+    .text-slider{
+    	max-width:100%;
+    }
+    .slider-img{
+    	width:100%;
+    	margin-left:10rem;
+    }
+    .slider-details span {
+	   left: 14%;
+     }
+     /*Studio Area*/
+     .studio-text h1 {
+      font-size: 22px !important;
+      }
+      .studio-text p{
+        font-size:18px;
+      }
+    .video-area{
+        padding:0;
+    }
+    /*Download Area*/
+ .download-area {
+    padding: 2rem 0;
+   }
+   .download {
+     flex-direction: column-reverse;
+   }
+   .download-phone {
+	 width: 70%;
+	 margin:auto;
+  }
+  /*Pric Area*/
+  .pricing-area {
+    padding: 2rem 0;
+  }
+.price {
+    margin: 3rem auto;
+}
+ /*Works Area*/
+ .works-area::after {
+    height: 5%;
+     z-index:1; 
+}
+.overly-text h3, .overly-text p {
+  font-size: 17px;
+}
+.overly-link a {
+  width:32%;
+  height:32%;
+  bottom: 17%;
+  left: 35%;
+}
+.works-carousel .owl-prev i {
+  top: -4%;
+  left: 90%;
+}
+.works-carousel .owl-next i {
+  top: -4%;
+  right:2%;
+}
+/*Blog Area*/
+.twit-title {
+	width: 60%;
+}
+/*Footer Area*/
+.copy-right {
+	text-align: center;
+	margin: 2rem auto;
+}
+
+}
+
+@media all and (max-width: 767px) {
+	h1{
+		font-size:30px !important;
+	}
+.section-heading p {
+    font-size: 28px;  
+}
+
+/*Header Area*/
+.header{
+    max-width:560px;
+}
+    /*Slider Area*/
+ .slider-img {
+    margin-left: 0;
+}
+.slider-img img {
+    width: auto !important;
+    margin: auto;
+}
+.slider-get h1 {
+    font-size: 25px !important;
+}
+.owl-prev i {
+  left: -2%;
+  padding:0 .4rem;
+}
+.owl-next i {
+  right: -2%;
+  padding:0 .4rem;
+}
+/*Studio Area*/
+.studio-text h1 {
+    font-size: 30px !important;
+}
+.slider-details span {
+	left: 17%;
+}
+.slider-details span {
+    left: 18%;
+}
+ /*Download Area*/
+ .download-area {
+    padding: 2rem 0;
+}
+/*About Area*/
+.about-me h2{
+	font-size: 34px;
+}
+.about-me h3{
+	font-size: 22px;
+}
+/*Works Area*/
+.works{
+    padding-bottom:7rem;
+}
+.works-area::after {
+    height: 3%;
+}
+.work img{
+  height: auto;
+}
+.overly-link a {
+  width:28%;
+  height:30%;
+}
+.overly-text {
+ text-align: center;
+}
+.overly-text h3, .overly-text p{
+  font-size: 24px;
+}
+.works-carousel .owl-prev i {
+  top: -2%;
+  left: 87%;
+}
+.works-carousel .owl-next i {
+  top: -2%;
+  right:2%;
+}
+/*Blog Area*/
+.twit-title {
+	width: 100%;
+}
+.blog h2 {
+	font-size: 20px;
+}
+.blog-carousel .owl-next i {
+  right: 5%;
+}
+.blog-carousel .owl-prev i {
+  left:5%;
+}
+/*Contact Area*/
+.contact-text h2 {
+	font-size: 21px;
+}
+.single-type{
+    margin:.7rem auto;
+}
+.submit-button {
+    width: 50%;
+}
+}
+
+@media all and (max-width: 500px) {
+h1{
+    font-size:18px !important;
+ }
+p {
+    font-size: 15px;
+  }
+  .section-heading h1 {
+    font-size: 23px !important;
+}
+.section-heading p {
+    font-size: 17px;
+}
+/*Header Area*/
+.nav{
+  width:80%;
+}
+.nav li{
+  text-align:center;
+}
+    /*Slider Area*/
+.slider-text {
+    margin: 2rem 0;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+.slider-details span {
+    width: 8px;
+    height: 8px;
+    margin-top: 8px;
+    left: 5%;
+}
+.slider-get h1 {
+    font-size: 18px !important;
+}
+
+/*Studio Area*/
+.single-studio {
+    margin: 0;
+}
+.studio-text h1 {
+    font-size: 19px !important;
+    margin-bottom: 1rem;
+}
+.studio-text p {
+    font-size: 15px;
+}
+/*About Area*/
+.about-text{
+    margin-left:1rem;
+}
+.about-me h2 {
+    font-size: 18px;
+}
+.about-me h3 {
+    font-size: 16px;
+}
+/*Download Area*/
+
+.download-left .important {
+    font-size: 18px;
+    margin-bottom:1rem;
+}
+ /*Works Area*/
+  .overly-text h3,.overly-text p{
+    font-size: 13px;
+   }
+  .works-carousel .owl-prev i {
+    top: -3%;
+    left: 84%;
+ }
+ .works-carousel .owl-next i {
+    top: -3%;
+    right:2%;
+ }
+  /*Blog Area*/
+  .twit-title p {
+    font-size:18px;
+   }
+.blog h2 {
+  font-size: 15px;
+}
+.blog p {
+    font-size:20px;
+     padding: 0rem; 
+     padding-top:1rem;
+}
+ /*Contact Area*/
+ .contact-text h2 {
+    font-size: 18px;
+}
+.form-control {
+    padding:.5rem;
+}
+.full-contact textarea {
+    height: 70px;
+}
+.submit-button{
+    width: 100%;
+}
+.submit-button input{
+   padding:1rem;
+}
+
+}
+@media all and (max-width: 480px){
+  .logo a {
+    font-size: 50px;
+}
+.slider-area {
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+}
+  .slider-img img {
+     width: 55% !important; 
+   }
+   .video {
+    margin-top: -4rem;
+}
+.download-phone {
+    width:100%;
+}
+.btn a {
+    color: #fff;
+    font-size: 20px;
+}
+.contact-button h3 {
+    padding: 0 1rem;
+    margin: 0;
+}
+.contact {
+    width: 100%;
+    padding: 3rem 1rem;
+}
+.footer-link a i {
+    padding: .3rem;
+    margin: 0 .2rem;
+    font-size: 12px;
+}
+.footer-link p {
+    font-size: 15px;
+    margin-left: 5px;
+}
